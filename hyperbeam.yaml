@@ -1,0 +1,37 @@
+name: Combine index.wasm Parts
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  combine_wasm:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Combine index.wasm parts
+        run: |
+          cat ./index.wasm.000.part ./index.wasm.001.part > ./index.wasm
+
+      - name: Commit combined wasm file
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add ./index.wasm
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Combine index.wasm parts into single file"
+            git push
+          fi
