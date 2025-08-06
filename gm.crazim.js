@@ -2596,7 +2596,7 @@ var adxAds2 = false;
                               0;
                               _0x19CC8[_$_b9ae[386]](_$_b9ae[682], _$_b9ae[689], _$_b9ae[300]);
                               e[_$_b9ae[305]](_$_b9ae[690], _$_b9ae[393]);
-                              ShowAds(); // suspicious
+                              // ShowAds();
                             } else {
                               0;
                               _0x19CC8[_$_b9ae[386]](_$_b9ae[682], _$_b9ae[691], _$_b9ae[393]);
@@ -9662,9 +9662,10 @@ try {
 } catch (e) {}
 ;
 if (storageSupported) {} else {
-  promoVideo();
+  // promoVideo();
 
 }
+
 
 
 
