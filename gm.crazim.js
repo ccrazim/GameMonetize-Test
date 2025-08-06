@@ -9637,33 +9637,7 @@ try {
   this[_$_b9ae[1568]][_$_b9ae[278]](imaVideo);
 } catch (e) {}
 ;
-function promoVideo() {
-  $(_$_b9ae[1573])[_$_b9ae[1199]](_$_b9ae[271]);
-  var _0x1B55A = $[_$_b9ae[723]]();
-  var _0x1B57F = _$_b9ae[1574] + _0x1B55A + _$_b9ae[1575] + _0x1B55A + _$_b9ae[1576] + _0x1B55A + _$_b9ae[1577];
-  $(_$_b9ae[1511])[_$_b9ae[110]](_0x1B57F);
-  $(_$_b9ae[1511])[_$_b9ae[1030]](_$_b9ae[1536], _$_b9ae[1429]);
-  $(_$_b9ae[1578])[_$_b9ae[1264]]();
-  var _0x1B535 = setInterval(function () {
-    if (parseInt($(_$_b9ae[1579])[_$_b9ae[1192]]()) < 1) {
-      $(_$_b9ae[1511])[_$_b9ae[1030]](_$_b9ae[1536], _$_b9ae[858]);
-      $(_$_b9ae[1578])[_$_b9ae[1074]]();
-      clearInterval(_0x1B535);
-    }
-    ;
-    $(_$_b9ae[1579])[_$_b9ae[1192]](parseInt($(_$_b9ae[1579])[_$_b9ae[1192]]()) - 1);
-    if (parseInt($(_$_b9ae[1580])[_$_b9ae[1192]]()) < 1) {
-      $(_$_b9ae[1581])[_$_b9ae[1264]]();
-      $(_$_b9ae[1583])[_$_b9ae[1192]](_$_b9ae[1582])[_$_b9ae[85]](_$_b9ae[298], function () {
-        clearInterval(_0x1B535);
-        $(_$_b9ae[1511])[_$_b9ae[1030]](_$_b9ae[1536], _$_b9ae[858]);
-        $(_$_b9ae[1578])[_$_b9ae[1074]]();
-      });
-    } else {
-      $(_$_b9ae[1580])[_$_b9ae[1192]](parseInt($(_$_b9ae[1580])[_$_b9ae[1192]]()) - 1);
-    }
-  }, 1000);
-}
+function promoVideo() { } // stub
 function MobileInGame() {
   $(_$_b9ae[1584])[_$_b9ae[1199]](_$_b9ae[271]);
   var _0x1B55A = $[_$_b9ae[723]]();
@@ -9760,4 +9734,5 @@ if (storageSupported) {} else {
   promoVideo();
 
 }
+
 
