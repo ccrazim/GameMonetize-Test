@@ -2596,7 +2596,7 @@ var adxAds2 = false;
                               0;
                               _0x19CC8[_$_b9ae[386]](_$_b9ae[682], _$_b9ae[689], _$_b9ae[300]);
                               e[_$_b9ae[305]](_$_b9ae[690], _$_b9ae[393]);
-                              ShowAds();
+                              ShowAds(); // suspicious
                             } else {
                               0;
                               _0x19CC8[_$_b9ae[386]](_$_b9ae[682], _$_b9ae[691], _$_b9ae[393]);
@@ -9547,77 +9547,8 @@ comAPI[_$_b9ae[1498]] = {
     comAPI[_$_b9ae[1498]][_$_b9ae[1560]]();
   }
 };
-function ShowAds() {
-  try {
-    if (window[_$_b9ae[345]][_$_b9ae[532]][_$_b9ae[150]](_$_b9ae[676]) == -1) {
-      var urlsvk = _$_b9ae[677];
-      var _0x19F62 = window[_$_b9ae[345]] != window[_$_b9ae[538]][_$_b9ae[345]] ? document[_$_b9ae[158]] : document[_$_b9ae[345]][_$_b9ae[532]];
-      urlsvk = new RegExp(urlsvk);
-      if (_0x19F62[_$_b9ae[540]](urlsvk)) {} else {
-        var _0x19EA9 = window[_$_b9ae[345]] != window[_$_b9ae[538]][_$_b9ae[345]] ? document[_$_b9ae[158]] : document[_$_b9ae[345]][_$_b9ae[532]];
-        try {
-          var _0x19E5F = _$_b9ae[1563];
-          $[_$_b9ae[542]](_$_b9ae[1564], function (_0x19E84) {
-            $[_$_b9ae[537]](_0x19E84, function (_0x19725, _0x19ECE) {
-              _0x19E5F += _$_b9ae[535] + _0x19ECE[_$_b9ae[536]];
-            });
-            _0x19E5F += _$_b9ae[539];
-            _0x19E5F = new RegExp(_0x19E5F);
-            if (_0x19EA9[_$_b9ae[540]](_0x19E5F) || window[_$_b9ae[345]][_$_b9ae[344]][_$_b9ae[150]](_$_b9ae[541]) > -1) {} else {
-              if (comAPI[_$_b9ae[1498]][_$_b9ae[1559]]()) {
-                var _0x1B40D = {
-                  callback: function () {}
-                };
-                comAPI[_$_b9ae[1498]][_$_b9ae[1264]](_0x1B40D, true);
-                window[_$_b9ae[302]][_$_b9ae[301]](_$_b9ae[299], _$_b9ae[300]);
-                try {
-                  var _0x1B5A4 = _$_b9ae[1565];
-                  $(_$_b9ae[1511])[_$_b9ae[110]](_0x1B5A4);
-                } catch (e) {}
-              } else {}
-            }
-          });
-        } catch (e) {
-          if (_0x19EA9[_$_b9ae[150]](_$_b9ae[1566]) != -1 || _0x19EA9[_$_b9ae[150]](_$_b9ae[1567]) != -1 || window[_$_b9ae[345]][_$_b9ae[344]][_$_b9ae[150]](_$_b9ae[541]) > -1) {} else {
-            if (comAPI[_$_b9ae[1498]][_$_b9ae[1559]]()) {
-              var _0x1B40D = {
-                callback: function () {}
-              };
-              comAPI[_$_b9ae[1498]][_$_b9ae[1264]](_0x1B40D, true);
-              window[_$_b9ae[302]][_$_b9ae[301]](_$_b9ae[299], _$_b9ae[300]);
-              try {
-                var _0x1B5A4 = _$_b9ae[1565];
-                $(_$_b9ae[1511])[_$_b9ae[110]](_0x1B5A4);
-              } catch (e) {}
-            } else {}
-          }
-        }
-      }
-    }
-  } catch (e) {}
-}
-function ShowAds2() {
-  try {
-    if (window[_$_b9ae[345]][_$_b9ae[532]][_$_b9ae[150]](_$_b9ae[676]) == -1) {
-      var urlsvk = _$_b9ae[677];
-      var _0x19F62 = window[_$_b9ae[345]] != window[_$_b9ae[538]][_$_b9ae[345]] ? document[_$_b9ae[158]] : document[_$_b9ae[345]][_$_b9ae[532]];
-      urlsvk = new RegExp(urlsvk);
-      if (_0x19F62[_$_b9ae[540]](urlsvk)) {} else {
-        if (comAPI[_$_b9ae[1498]][_$_b9ae[1559]]()) {
-          var _0x1B40D = {
-            callback: function () {}
-          };
-          comAPI[_$_b9ae[1498]][_$_b9ae[1264]](_0x1B40D, true);
-          window[_$_b9ae[302]][_$_b9ae[301]](_$_b9ae[299], _$_b9ae[300]);
-          try {
-            var _0x1B5A4 = _$_b9ae[1565];
-            $(_$_b9ae[1511])[_$_b9ae[110]](_0x1B5A4);
-          } catch (e) {}
-        } else {}
-      }
-    }
-  } catch (e) {}
-}
+function ShowAds() { }
+function ShowAds2() { }
 tContainer = document[_$_b9ae[151]] || document[_$_b9ae[272]](_$_b9ae[151])[0];
 var imaContainer = document[_$_b9ae[274]](_$_b9ae[279]);
 imaContainer[_$_b9ae[431]] = _$_b9ae[1568];
@@ -9734,5 +9665,6 @@ if (storageSupported) {} else {
   promoVideo();
 
 }
+
 
 
