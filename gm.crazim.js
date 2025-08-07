@@ -9,7 +9,7 @@ console.log(
   "\n %c %c %c Crazim GM SDK :3 %c  %c   Updates at   https://crazim.fun/   %c %c %c %c",
   "background: #357ede; padding:5px 0;",
   "background: #357ede; padding:5px 0;",
-  "color: #000000; background: #111129; padding:5px 0;",
+  "color: #fff; background: #111129; padding:5px 0;",
   "background: #1b54c4; padding:5px 0;",
   "color: #000000;background: #4467c7; padding:5px 0;",
   "background: #1b54c4; padding:5px 0;",
@@ -9685,6 +9685,7 @@ if (storageSupported) {} else {
   // promoVideo();
 
 }
+
 
 
 
